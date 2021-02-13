@@ -55,6 +55,7 @@ class Program
         Benz benz = new Benz(CarType.전기); benz.Go(); 
         Console.WriteLine($"{benz.Style}");
         Future future = new Future(); future.Go();
+        Console.WriteLine("되나");
 
     }
 }

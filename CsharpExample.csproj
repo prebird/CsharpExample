@@ -3,7 +3,16 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject></StartupObject>
+    <StartupObject>Program</StartupObject>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="44. Method Override\MethodOverride.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="44. Method Override\MethodOverride.cs" />
+  </ItemGroup>
 
 </Project>

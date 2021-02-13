@@ -1,12 +1,24 @@
 ﻿using System;
 
-namespace CsharpExample
+
+class Parent
+{
+    public void Say() => Console.WriteLine("부모_안녕하세요");
+}
+
+class Child : Parent
+{
+    
+}
+
+
+namespace Override
 {
     class MethodOverride
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Child child = new Child(); child.Say();
         }
     }
 }
