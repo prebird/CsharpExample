@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>Override.Override</StartupObject>
+    <StartupObject>AttributeAndReflection.AttributeAndReflection</StartupObject>
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
