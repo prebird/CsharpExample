@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>GenericType</StartupObject>
+    <StartupObject>Tuple.Tuple</StartupObject>
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
