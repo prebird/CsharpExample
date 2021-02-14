@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>OOP.OOP_CarWorld</StartupObject>
+    <StartupObject>GenericType</StartupObject>
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
