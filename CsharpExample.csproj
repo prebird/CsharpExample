@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>CsharpExample.ThreadNote</StartupObject>
+    <StartupObject>FuncLambda.FuncLambda</StartupObject>
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
